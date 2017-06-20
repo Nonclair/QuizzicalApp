@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    android:background="@drawable/econo"
+    tools:context="com.example.android.quizzicalapp.EconomicsActivity">
+
+    <ViewFlipper
+        android:id="@+id/economics_view_flipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/choice2"
+            android:layout_below="@+id/score"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="74dp"
+            android:gravity="center"
+            android:text="QUESTION 1"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/economics_question1"
+            android:layout_marginBottom="74dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/economics_question1_choice1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#89273492"
+            android:text="an insurance scheme exclusively for the employee of banks"
+            android:textColor="#ffff"
+            android:layout_marginBottom="14dp"
+            android:layout_above="@+id/choice2"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/economics_question1_choice2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8925"
+            android:text="an insurance scheme to insure bank deposits"
+            android:textColor="#ffff"
+            android:layout_above="@+id/choice3"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="11dp" />
+
+        <Button
+            android:id="@+id/economics_question1_choice3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00008B"
+            android:text="a composite financial service offering both bank and insurance product"
+            android:textColor="#ffff" />
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:text="QUESTION 2"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/economics_question2"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/economics_question2_choice4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#89273492"
+                android:text="Securities and Exchange Board of India (SEBI)"
+                android:textColor="#ffff"
+                android:layout_marginBottom="14dp"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/economics_question2_choice5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8925"
+                android:text="Association of Mutual Funds of India (AMFI)"
+                android:textColor="#ffff"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="11dp" />
+
+            <Button
+                android:id="@+id/economics_question2_choice6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00008B"
+                android:text="IRDA."
+                android:textColor="#ffff" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:text="QUESTION 3"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/economics_question3"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/economics_question3_choice7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#89273492"
+                android:text="Trade"
+                android:textColor="#ffff"
+                android:layout_marginBottom="14dp"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/economics_question3_choice8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8925"
+                android:text="Telecom"
+                android:textColor="#ffff"
+                android:layout_marginBottom="14dp"
+                android:layout_alignParentStart="true"/>
+
+            <Button
+                android:id="@+id/economics_question3_choice9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00008B"
+                android:text="Transport"
+                android:textColor="#ffff"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="11dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:text="QUESTION 4"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/economics_question4"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/economics_question4_choice10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#89273492"
+                android:text="Self Help Groups"
+                android:textColor="#ffff"
+                android:layout_marginBottom="14dp"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/economics_question4_choice11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8925"
+                android:text="Co-operative Credit Societies"
+                android:textColor="#ffff"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="11dp" />
+
+            <Button
+                android:id="@+id/economics_question4_choice12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#00008B"
+                android:text="RBI"
+                android:textColor="#ffff" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:text="QUESTION 5"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/economics_question5"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/economics_question5_choice13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#89273492"
+                android:text="Professional Identification Number"
+                android:textColor="#ffff"
+                android:layout_marginBottom="14dp"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/economics_question5_choice14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8925"
+                android:text="Personal Identification Number"
+                android:textColor="#ffff"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="14dp" />
+
+            <Button
+                android:id="@+id/economics_question5_choice15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00008B"
+                android:text="Personal Index Number"
+                android:textColor="#ffff"
+                android:layout_marginBottom="11dp"
+                android:layout_alignParentStart="true"/>
+
+        </LinearLayout>
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:text="Next Question"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>

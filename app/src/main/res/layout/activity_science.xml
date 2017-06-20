@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/science"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.android.quizzicalapp.ScienceActivity">
+
+    <ViewFlipper
+        android:id="@+id/science_view_flipper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/choice2"
+            android:layout_below="@+id/score"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="74dp"
+            android:gravity="center"
+            android:text="QUESTION 1"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/science_question1"
+            android:layout_marginBottom="70dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/science_question1_choice1"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:background="#89273492"
+            android:text="Kepler"
+            android:textColor="#ffff"
+            android:layout_marginBottom="14dp"
+            android:layout_above="@+id/choice2"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/science_question1_choice2"
+            android:layout_width="347dp"
+            android:layout_height="wrap_content"
+            android:background="#8925"
+            android:text="Galileo"
+            android:textColor="#ffff"
+            android:layout_above="@+id/choice3"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="11dp" />
+
+        <Button
+            android:id="@+id/science_question1_choice3"
+            android:layout_width="345dp"
+            android:layout_height="wrap_content"
+            android:background="#00008B"
+            android:text="Newton"
+            android:textColor="#ffff" />
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="74dp"
+            android:gravity="center"
+            android:text="QUESTION 2"
+            android:textColor="#000"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="@string/science_question2"
+            android:layout_marginBottom="74dp"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/science_question2_choice4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#89273492"
+            android:text="is same as the force with which the earth attracts the sun."
+            android:textColor="#ffff"
+            android:layout_marginBottom="14dp"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:id="@+id/science_question2_choice5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#8925"
+            android:text="is less than the force with which the earth attracts the sun."
+            android:textColor="#ffff"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="11dp" />
+
+        <Button
+            android:id="@+id/science_question2_choice6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00008B"
+            android:text="is more than the force with which the earth attracts the sun."
+            android:textColor="#ffff" />
+
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:text="QUESTION 3"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/science_question3"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="10dp" />
+
+            <Button
+                android:id="@+id/science_question3_choice7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#89273492"
+                android:text="twice as large as now"
+                android:textColor="#ffff"
+                android:layout_marginBottom="14dp"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/science_question3_choice8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8925"
+                android:text="four times as large as it is now"
+                android:textColor="#ffff"
+                android:layout_marginBottom="14dp"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/science_question3_choice9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00008B"
+                android:text="one-fourth of what it is now"
+                android:textColor="#ffff"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="11dp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:text="QUESTION 4"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/science_question4"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/science_question4_choice10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#89273492"
+                android:text="the same everywhere on the surface of the earth."
+                android:textColor="#ffff"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/science_question4_choice11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8925"
+                android:text="maximum at the pole."
+                android:textColor="#ffff"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/science_question4_choice12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#00008B"
+                android:text="more on the hills than in the plains."
+                android:textColor="#ffff" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="368dp"
+            android:layout_height="495dp"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/question5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:text="QUESTION 5"
+                android:textColor="#000"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginRight="15dp"
+                android:text="@string/science_question5"
+                android:layout_marginBottom="74dp"
+                android:gravity="center"
+                android:textColor="#000"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/science_question5_choice13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#89273492"
+                android:text="moving up with constant velocity"
+                android:textColor="#ffff"
+                android:layout_marginBottom="10dp"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:id="@+id/science_question5_choice14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#8925"
+                android:text="accelerating upward"
+                android:textColor="#ffff"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="10dp" />
+
+            <Button
+                android:id="@+id/science_question5_choice15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#00008B"
+                android:text="moving down with constant velocity"
+                android:textColor="#ffff" />
+
+
+        </LinearLayout>
+    </ViewFlipper>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="167dp"
+        android:layout_height="wrap_content"
+        android:text="Next Question"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
+
+

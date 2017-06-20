@@ -1,0 +1,20 @@
+<resources>
+     <string name="app_name">QuizzicalApp</string>
+     <string name="science_question1">The universal law of gravitation was propounded by____</string>
+     <string name="science_question2">The gravitational force with which the sun attracts the earth?</string>
+     <string name="science_question3">If the distance between the earth and the sun were twice what it is now, the gravitational force exerted on the earth by the sun would be?</string>
+     <string name="science_question4">The weight of a body is_____</string>
+     <string name="science_question5">A person weighs more in a lift, which is?</string>
+
+    <string name="economics_question1">Bank assurance is?</string>
+    <string name="economics_question2">Mutual funds are regulated by?</string>
+    <string name="economics_question3">TRAI regulates the functioning of which of the following?</string>
+    <string name="economics_question4">Micro credit or micro finance is a novel approach to bank with the poor. In this approach bank credit is extended to the poor through?</string>
+    <string name="economics_question5">The full form of PIN in ATM transaction is?</string>
+
+    <string name="geography_question1">Which planet rotates on its axis from east to west?</string>
+    <string name="geography_question2">The minimun distance between the sun and the earth occurs on?</string>
+    <string name="geography_question3">On the day the sun is nearest to the earth, the earth is said to be in?</string>
+    <string name="geography_question4">The earth is at its maximum distance from the sun on?</string>
+    <string name="geography_question5">The rate of rotation of the earth on its axis is highest on?</string>
+</resources>
